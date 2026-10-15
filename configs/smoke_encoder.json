@@ -1,0 +1,19 @@
+{
+  "dataset": "uspto-debug",
+  "max_train_examples": 8,
+  "max_dev_examples": 4,
+  "max_test_examples": 4,
+  "max_length": 128,
+  "train_batch_size": 2,
+  "eval_batch_size": 2,
+  "max_epochs": 1,
+  "grad_accum": 1,
+  "num_workers": 0,
+  "loss": "asl",
+  "asl_gamma_pos": 0.0,
+  "asl_gamma_neg": 4.0,
+  "asl_clip": 0.05,
+  "oversample_strength": 0.5,
+  "use_codecarbon": false,
+  "seed": 42
+}
